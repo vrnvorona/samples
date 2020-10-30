@@ -2,7 +2,7 @@
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
 3    package="io.flutter.plugins.firebase.cloudfirestore" >
 4
-5    <uses-sdk android:minSdkVersion="16" />
+5    <uses-sdk android:minSdkVersion="21" />
 5-->/usr/local/flutter/.pub-cache/hosted/pub.dartlang.org/cloud_firestore-0.13.7/android/src/main/AndroidManifest.xml
 6
 7    <application>
