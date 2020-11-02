@@ -18,6 +18,8 @@ final _placesApiClient = GoogleMapsPlaces(apiKey: googleMapsApiKey);
 
 void main() => runApp(App());
 
+// some comment here to check trigger
+
 class App extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
