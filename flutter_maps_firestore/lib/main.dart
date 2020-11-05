@@ -18,13 +18,12 @@ final _placesApiClient = GoogleMapsPlaces(apiKey: googleMapsApiKey);
 
 void main() => runApp(App());
 
-// some comment here to check trigger
 
 class App extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Ice Creams FTW',
+      title: 'Ice Creams FTWtest',
       home: const HomePage(title: 'Ice Cream Stores in SF'),
       theme: ThemeData(
         primarySwatch: Colors.pink,
