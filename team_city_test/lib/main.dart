@@ -23,7 +23,7 @@ class App extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Ice Creams FTW',
-      home: const HomePage(title: 'Ice Cream Stores in SF'),
+      home: const HomePage(title: 'Test in SF'),
       theme: ThemeData(
         primarySwatch: Colors.pink,
         scaffoldBackgroundColor: Colors.pink[50],
