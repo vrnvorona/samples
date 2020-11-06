@@ -16,7 +16,7 @@ void main() {
     await tester.pumpWidget(App());
 
     // Verify that our counter starts at 0.
-    expect(find.text('TestMerge in SF'), findsOneWidget);
+    expect(find.text('TestMerge1 in SF'), findsOneWidget);
     expect(find.text('Shops in SF'), findsNothing);
 
     // Tap the '+' icon and trigger a frame.
