@@ -17,7 +17,7 @@ void main() {
 
     // Verify that our counter starts at 0.
     expect(find.text('TestMerge in SF'), findsOneWidget);
-//    expect(find.text('Shops in SF'), findsNothing);
+    expect(find.text('Shops in SF'), findsNothing);
 
     // Tap the '+' icon and trigger a frame.
 //    await tester.tap(find.byIcon(Icons.add));
